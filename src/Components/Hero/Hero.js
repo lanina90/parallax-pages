@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useRef} from 'react';
 import HeroImage from "./HeroImage";
 import Hero11 from '../../assets/hero/hero-11.webp'
 import Hero10 from '../../assets/hero/hero-10.webp'
@@ -24,12 +24,13 @@ const Hero = () => {
   const scrollY = useScroll()
 
   const refs = useRef([]);
-  const translateValues = [0, 0, 0, 0, 0, 0, 0, 0];
+
 
   const images = [Hero11, Hero10, Hero9,Hero8, Hero7, Hero6, Hero5,Hero4,Hero3,Hero2,Hero1]
   const clouds = [Cloud8, Cloud7, Cloud6,Cloud5, Cloud4, Cloud3,Cloud2,Cloud1]
 
   useEffect(() => {
+    const translateValues = [0, 0, 0, 0, 0, 0, 0, 0];
     const moveElements = () => {
       refs.current.forEach((element, index) => {
         if (element) {
@@ -46,7 +47,7 @@ const Hero = () => {
 
     const intervalId = setInterval(moveElements, 50);
     return () => clearInterval(intervalId);
-  }, [translateValues]);
+  }, []);
 
   return (
     <div className="section_hero">
