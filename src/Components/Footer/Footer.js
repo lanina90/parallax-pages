@@ -19,7 +19,7 @@ const Footer = () => {
           <div className={'text-wrapper'}>
             <h2 className={'heading-style-h2 color-style-white'}>Aenean faucibus ornare tellus</h2>
             <p className={'text-size-xlarge color-style-white'}>
-              Contact us and let's talk.
+              Faucibus ornare tellus.
             </p>
           </div>
 
