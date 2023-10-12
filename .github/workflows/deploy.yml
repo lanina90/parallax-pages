@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - master  # замініть на ту гілку, з якої ви хочете деплоїти
+      - master
 
 jobs:
   build-and-deploy:
