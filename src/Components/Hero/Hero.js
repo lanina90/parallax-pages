@@ -46,7 +46,7 @@ const Hero = () => {
 
     const intervalId = setInterval(moveElements, 50);
     return () => clearInterval(intervalId);
-  }, []);
+  }, [translateValues]);
 
   return (
     <div className="section_hero">
