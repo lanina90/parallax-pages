@@ -70,15 +70,15 @@ const Hero = () => {
                }}/>
         <Hero4 width="100%" height="100%" className={styles['hero-6']}
                style={{
-                 transform: calculateTranslate(scrollY, 0.2)
+                 transform: calculateTranslate(scrollY, 0.4)
                }}/>
         <Hero3 width="100%" height="100%" className={styles['hero-7']}
                style={{
-                 transform: calculateTranslate(scrollY, 0.4)
+                 transform: calculateTranslate(scrollY, 0.8)
                }}/>
         <Hero2 width="100%" height="100%" className={styles['hero-8']}
                style={{
-                 transform: calculateTranslate(scrollY, 0.2)
+                 transform: calculateTranslate(scrollY, 0.8)
                }}/>
         <Hero1 width="100%" height="100%" className={styles['hero-9']}
                style={{
@@ -90,7 +90,10 @@ const Hero = () => {
                   transform: calculateTranslate(scrollY, 0.4)
                 }}
         />
-        <Train className={styles['hero-11']} width="100%" height="100%"/>
+        <Train className={styles['hero-11']} width="100%" height="100%"
+               style={{
+                 opacity: 1 - scrollY/100,
+               }}/>
         <Sun className={styles['hero-12']} width="100%" height="100%"
              style={{
                opacity: scrollY/500,
