@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="940" viewBox="0 0 1920 940" fill="none">
+    <g clip-path="url(#clip0_192_55027)">
+        <g opacity="0.75">
+            <g filter="url(#filter0_f_192_55027)">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M519.576 20L959.787 531.902L959.782 531.933L426.485 129.445L211.37 274.162L959.777 531.968L959.773 531.99L410.131 476.649V594.899L959.77 532.012L959.766 532.036L211.37 789.838L426.485 934.555L959.758 532.085L959.749 532.142L519.576 1044H714.564L959.723 532.309L881.876 1025.13H1035.35L960.012 532.295L1205.18 1044H1400.17L959.988 532.136L959.969 532.011L961.354 532.17L1494.51 934.555L1709.63 789.838L961.755 532.216L1509.61 594.899V476.649L961.648 531.821L1709.63 274.162L1494.51 129.445L961.323 531.854L959.966 531.99L959.953 531.905L1400.17 20H1205.18L959.944 531.848L959.919 531.687L1035.35 42.0147H881.876L959.821 531.687L959.796 531.844L714.564 20H519.576Z" fill="url(#paint0_radial_192_55027)"/>
+            </g>
+            <g filter="url(#filter1_f_192_55027)">
+                <circle cx="959.898" cy="532" r="70" fill="#FFC15F"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <filter id="filter0_f_192_55027" x="205.08" y="13.7101" width="1510.84" height="1036.58" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="3.14496" result="effect1_foregroundBlur_192_55027"/>
+        </filter>
+        <filter id="filter1_f_192_55027" x="854.898" y="427" width="210" height="210" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+            <feGaussianBlur stdDeviation="17.5" result="effect1_foregroundBlur_192_55027"/>
+        </filter>
+        <radialGradient id="paint0_radial_192_55027" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(961.129 532) rotate(-90.1671) scale(387.002 459.8)">
+            <stop stop-color="#FCEDC3"/>
+            <stop offset="1" stop-color="#FFC15F" stop-opacity="0"/>
+        </radialGradient>
+        <clipPath id="clip0_192_55027">
+            <rect width="1920" height="940" fill="white"/>
+        </clipPath>
+    </defs>
+</svg>
