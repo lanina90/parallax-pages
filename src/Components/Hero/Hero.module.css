@@ -16,7 +16,6 @@
 .hero-wrapper {
   display: grid;
   width: 100vw;
-  max-width: 100vh;
 }
 
 [class*='hero-']:not(.hero-wrapper) {
