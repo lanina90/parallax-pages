@@ -6,13 +6,9 @@ const HeroImage = forwardRef(
 
     if (className === 'hero-1') {
       transformStyle = `translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`;
-    } else if(className === 'hero-6') {
+    } else if (className === 'hero-6' || className === 'hero-7' || className === 'hero-8' || className === 'hero-9' ) {
       transformStyle = `translate3d(0px, ${scrollY * 0.2}px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`;
-    } else if(className === 'hero-7') {
-      transformStyle = `translate3d(0px, ${scrollY * 0.2}px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`;
-    } else if(className === 'hero-5') {
-      transformStyle = `translate3d(0px, ${scrollY * 0.2}px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`;
-    } else if(className === 'hero-10') {
+    } else if (className === 'hero-10') {
       transformStyle = `translate3d(0px, ${-126 + (scrollY * 0.5)}px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`;
     }
 
