@@ -67,7 +67,7 @@
 
 .hero-11 {
   z-index: 10;
-  animation: train 8s infinite;
+  animation: train 10s infinite;
 }
 
 .hero-12{
@@ -114,6 +114,6 @@
     transform: translate3d(-30%, 0%, 0);
   }
   100% {
-    transform: translate3d(100%, 0%, 0);
+    transform: translate3d(80%, 0%, 0);
   }
 }
