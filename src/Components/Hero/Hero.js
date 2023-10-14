@@ -51,7 +51,7 @@ const Hero = () => {
   return (
     <div className={styles.section_hero}>
       <div className={styles['hero-wrapper']}>
-        <Hero9 width="100%" height="100%" className={styles['hero-1']}/>
+        <Hero9 width="100%" height="100%" className={styles['hero-1']} />
         <Hero8 width="100%" height="100%" className={styles['hero-2']}
                style={{
                  transform: calculateTranslate(scrollY, 0.1)
@@ -70,7 +70,7 @@ const Hero = () => {
                }}/>
         <Hero4 width="100%" height="100%" className={styles['hero-6']}
                style={{
-                 transform: calculateTranslate(scrollY, 0.1)
+                 transform: calculateTranslate(scrollY, 0.2)
                }}/>
         <Hero3 width="100%" height="100%" className={styles['hero-7']}
                style={{
@@ -78,20 +78,23 @@ const Hero = () => {
                }}/>
         <Hero2 width="100%" height="100%" className={styles['hero-8']}
                style={{
-                 transform: calculateTranslate(scrollY, 0.4)
+                 transform: calculateTranslate(scrollY, 0.2)
                }}/>
         <Hero1 width="100%" height="100%" className={styles['hero-9']}
                style={{
-                 transform: calculateTranslate(scrollY, 0.4)
+                 transform: calculateTranslate(scrollY, 0.6)
                }}
                />
         <Bridge width="100%" height="100%" className={styles['hero-10']}
+                style={{
+                  transform: calculateTranslate(scrollY, 0.4)
+                }}
         />
         <Train className={styles['hero-11']} width="100%" height="100%"/>
         <Sun className={styles['hero-12']} width="100%" height="100%"
              style={{
                opacity: scrollY/500,
-               transform: calculateTranslate(scrollY, 0.4)
+               transform: calculateTranslate(scrollY, 0.6)
              }}/>
         <Cloud1 width="100%" height="100%" className={styles['hero-cloud1']}
                 style={{
