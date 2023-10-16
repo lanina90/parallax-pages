@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/parallax-pages/static/css/main.22302921.css",
-    "main.js": "/parallax-pages/static/js/main.42c63f1c.js",
+    "main.css": "/parallax-pages/static/css/main.c304a16e.css",
+    "main.js": "/parallax-pages/static/js/main.aad85ede.js",
     "static/js/787.54fe4277.chunk.js": "/parallax-pages/static/js/787.54fe4277.chunk.js",
     "static/media/hero-9.svg": "/parallax-pages/static/media/hero-9.20de4c0c5494a3f05f7e22e78fb812bb.svg",
     "static/media/hero-06.svg": "/parallax-pages/static/media/hero-06.e373373adf0b73957d116f98809ed403.svg",
     "static/media/hero-03.svg": "/parallax-pages/static/media/hero-03.f469e77ef504d5fd343ae466a8fbcc51.svg",
     "static/media/hero-05.svg": "/parallax-pages/static/media/hero-05.ecf9c3330ac7ae2d12305590322a6258.svg",
     "static/media/bridge.svg": "/parallax-pages/static/media/bridge.76ed9606e9e8ffcf4eecc7ed54e012ef.svg",
+    "static/media/background.svg": "/parallax-pages/static/media/background.b00a2dbd2d9dab1d40701201403fd3b0.svg",
     "static/media/hero-8.svg": "/parallax-pages/static/media/hero-8.8f3014c6ed21aa86b51dec2350e892ec.svg",
     "static/media/hero-04.svg": "/parallax-pages/static/media/hero-04.a7ad105dcc876a60c5bc1b1983d35338.svg",
     "static/media/hero-02.svg": "/parallax-pages/static/media/hero-02.9156407dd0a698d824f980f81e7f0dcd.svg",
     "static/media/cloud7.svg": "/parallax-pages/static/media/cloud7.01cc797125c3dce7d1d6f9906a3f5dd5.svg",
     "static/media/cloud6.svg": "/parallax-pages/static/media/cloud6.c0936208975d5417e6d7010c8eef70a0.svg",
+    "static/media/tubes_light.svg": "/parallax-pages/static/media/tubes_light.62217c078633ec62b7c705554b7d638e.svg",
     "static/media/hero-07.svg": "/parallax-pages/static/media/hero-07.4244fc6371965c0cf0b7c886a3e424f4.svg",
+    "static/media/tubes_dark.svg": "/parallax-pages/static/media/tubes_dark.99d375de345cf0bde56f13c302b74c19.svg",
+    "static/media/intro-07.svg": "/parallax-pages/static/media/intro-07.a476a261cbc2205697c2d69df6ffacc5.svg",
     "static/media/train.svg": "/parallax-pages/static/media/train.8d89770b8e9fcf3ae4b05f64d861bfe2.svg",
+    "static/media/intro-06.svg": "/parallax-pages/static/media/intro-06.f9d6432d39a0af41db225df6eb30a102.svg",
     "static/media/cloud5.svg": "/parallax-pages/static/media/cloud5.ce622393bf4968047b3c7ea3ab897982.svg",
     "static/media/cloud4.svg": "/parallax-pages/static/media/cloud4.3eeb670ee527223b082c774fe2be26ad.svg",
+    "static/media/intro-05.svg": "/parallax-pages/static/media/intro-05.2fc845bef9d30f84c94f81513d0e1f8d.svg",
     "static/media/sunflower.svg": "/parallax-pages/static/media/sunflower.0d188c23ce55ab543886fa16d54595b9.svg",
     "static/media/cloud8.svg": "/parallax-pages/static/media/cloud8.d4b1ee4db9b6baac098b677c9245cda1.svg",
     "static/media/cloud3.svg": "/parallax-pages/static/media/cloud3.61d1236d64c22cbd72bc5e470b80034d.svg",
@@ -24,12 +30,12 @@
     "static/media/cloud2.svg": "/parallax-pages/static/media/cloud2.4ec706a228c2d208ee2a9d178ad50d72.svg",
     "index.html": "/parallax-pages/index.html",
     "static/media/hero-01.svg": "/parallax-pages/static/media/hero-01.161f663032d7d3d11b25d82425dd47cb.svg",
-    "main.22302921.css.map": "/parallax-pages/static/css/main.22302921.css.map",
-    "main.42c63f1c.js.map": "/parallax-pages/static/js/main.42c63f1c.js.map",
+    "main.c304a16e.css.map": "/parallax-pages/static/css/main.c304a16e.css.map",
+    "main.aad85ede.js.map": "/parallax-pages/static/js/main.aad85ede.js.map",
     "787.54fe4277.chunk.js.map": "/parallax-pages/static/js/787.54fe4277.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22302921.css",
-    "static/js/main.42c63f1c.js"
+    "static/css/main.c304a16e.css",
+    "static/js/main.aad85ede.js"
   ]
 }
