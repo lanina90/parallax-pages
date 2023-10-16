@@ -1,5 +1,5 @@
 import React from 'react';
-import {useScroll} from "../../utils/useScroll";
+import {useScroll} from "../../hooks/useScroll";
 
 const Footer = () => {
   const scrollY = useScroll()

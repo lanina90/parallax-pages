@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {useScroll} from "../../utils/useScroll";
+import {useScroll} from "../../hooks/useScroll";
 import styles from './Hero.module.css'
 import {ReactComponent as Hero9} from "../../assets/hero/hero-9.svg";
 import {ReactComponent as Hero8} from "../../assets/hero/hero-8.svg";
