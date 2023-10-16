@@ -1,5 +1,5 @@
 import React from 'react';
-import {useScroll} from "../../utils/useScroll";
+import {useScroll} from "../../hooks/useScroll";
 import styles from './Content.module.css'
 import Container from "../Container/Container";
 

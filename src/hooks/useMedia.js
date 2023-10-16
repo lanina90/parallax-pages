@@ -6,10 +6,10 @@ export const useMedia = () => {
   })
 
   const isDesktop = useMediaQuery({
-    query: '(min-width: 1240px) and (max-width: 1439px)',
+    query: '(min-width: 1024px) and (max-width: 1439px)',
   })
   const isTablet = useMediaQuery({
-    query: '(min-width: 768px) and (max-width: 1239px)',
+    query: '(min-width: 768px) and (max-width: 1023px)',
   })
   const isMobile = useMediaQuery({
     query: '(max-width: 767px)',

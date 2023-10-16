@@ -7,7 +7,7 @@ import {ReactComponent as RocksUp} from "../../assets/intro/intro-05.svg";
 import {ReactComponent as TubesLight} from "../../assets/intro/tubes_light.svg";
 import {ReactComponent as TubesDark} from "../../assets/intro/tubes_dark.svg";
 import {ReactComponent as BackGround} from "../../assets/intro/background.svg";
-import {useScroll} from "../../utils/useScroll";
+import {useScroll} from "../../hooks/useScroll";
 import {useMedia} from "../../hooks/useMedia";
 
 const Intro = () => {
