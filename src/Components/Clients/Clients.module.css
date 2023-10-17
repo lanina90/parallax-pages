@@ -1,0 +1,85 @@
+.clients{
+  color: #ece8e6;
+  background-color: #12147f;
+}
+.wrapper {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+}
+
+[class*='clients-'], [class*='fish-'] {
+  grid-area: 1 / 1;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.clients-01{
+  z-index: 1;
+}
+
+.clients-02{
+  z-index: 2;
+}
+
+.clients-03{
+  z-index: 3;
+}
+
+.clients-04{
+  z-index: 3;
+}
+
+.clients-05{
+  z-index: 4;
+}
+
+.clients-06{
+  z-index: 3;
+}
+.clients-07{
+  z-index: 1;
+}
+
+.fish-01{
+  z-index: 3;
+  width: 3rem;
+  position: absolute;
+  inset: auto 22% 28% auto;
+  height: 2rem;
+}
+
+.fish-02{
+  z-index: 6;
+  width: 2rem;
+  position: absolute;
+  inset: auto 24% 1% auto;
+  height: 2rem;
+}
+
+.fish-03{
+  z-index: 3;
+  width: 4rem;
+  height: 4rem;
+  inset: auto 24% 1% auto;
+}
+
+.fish-04{
+  z-index: 3;
+  width: 1.5rem;
+  height: 1.5rem;
+  inset: auto 8% 1% auto;
+}
+
+.masque_bottom {
+  z-index: 50;
+  width: 100%;
+  height: auto;
+  min-width: 40rem;
+  position: absolute;
+  top: auto;
+  bottom: -1px;
+  left: 0%;
+  right: 0%;
+}
