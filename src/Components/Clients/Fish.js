@@ -9,10 +9,10 @@ const Fish = ({sectionRef}) => {
 
 
   const [fish1State, setFish1State] = useState({
-    x: Math.random() * 3,
-    y: 100,
+    x: Math.random() * 30,
+    y: Math.random() * 100,
     z: 50,
-    xVelocity: Math.random() * 2,
+    xVelocity: Math.random() * 1.5,
     yVelocity: Math.random() * 2,
     zVelocity: Math.random() * 0.5,
     direction: 'left'
@@ -37,7 +37,7 @@ const Fish = ({sectionRef}) => {
     direction: 'right'
   });
   const [fish4State, setFish4State] = useState({
-    x: Math.random() * 10,
+    x: Math.random() * 200,
     y: 50,
     z: 10,
     xVelocity: Math.random() * 2,
@@ -48,8 +48,8 @@ const Fish = ({sectionRef}) => {
 
   const tick = (currentState, setStateFunc) => {
     if (sectionRef.current) {
-      const maxWidth = sectionRef.current ? sectionRef.current.offsetWidth : 0;
-      const maxHeight = sectionRef.current ? sectionRef.current.offsetHeight : 0;
+      const maxWidth = sectionRef.current ? sectionRef.current.offsetWidth - 20: 0;
+      const maxHeight = sectionRef.current ? sectionRef.current.offsetHeight - 30 : 0;
       const maxDepth = 200;
 
       let {x, y, z, xVelocity, yVelocity, zVelocity} = currentState;
