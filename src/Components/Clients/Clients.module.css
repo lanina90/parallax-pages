@@ -1,6 +1,7 @@
 .clients{
   color: #ece8e6;
   background-color: #12147f;
+  overflow: hidden;
 }
 .wrapper {
   display: grid;
@@ -44,32 +45,26 @@
 
 .fish-01{
   z-index: 3;
-  width: 3rem;
-  position: absolute;
-  inset: auto 22% 28% auto;
-  height: 2rem;
+  width: 1rem;
+  height: 1rem;
 }
 
 .fish-02{
   z-index: 6;
-  width: 2rem;
-  position: absolute;
-  inset: auto 24% 1% auto;
-  height: 2rem;
+  width: 1rem;
+  height: 1rem;
 }
 
 .fish-03{
   z-index: 3;
-  width: 4rem;
-  height: 4rem;
-  inset: auto 24% 1% auto;
+  width: 1rem;
+  height: 1rem;
 }
 
 .fish-04{
   z-index: 3;
-  width: 1.5rem;
-  height: 1.5rem;
-  inset: auto 8% 1% auto;
+  width: 1rem;
+  height: 1rem;
 }
 
 .masque_bottom {
@@ -82,4 +77,82 @@
   bottom: -1px;
   left: 0%;
   right: 0%;
+}
+
+@media screen and (min-width: 768px) {
+  .fish-01{
+    z-index: 3;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .fish-02{
+    z-index: 6;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .fish-03{
+    z-index: 3;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .fish-04{
+    z-index: 3;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .fish-01{
+    z-index: 3;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .fish-02{
+    z-index: 6;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .fish-03{
+    z-index: 3;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .fish-04{
+    z-index: 3;
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .fish-01{
+    z-index: 3;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .fish-02{
+    z-index: 6;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .fish-03{
+    z-index: 3;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .fish-04{
+    z-index: 3;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }
