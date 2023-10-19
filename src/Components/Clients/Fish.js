@@ -11,7 +11,7 @@ const Fish = ({sectionRef}) => {
   const [fish1State, setFish1State] = useState({
     x: Math.random() * 30,
     y: Math.random() * 100,
-    z: 50,
+    z: 70,
     xVelocity: Math.random() * 1.5,
     yVelocity: Math.random() * 2,
     zVelocity: Math.random() * 0.5,
@@ -19,8 +19,8 @@ const Fish = ({sectionRef}) => {
   });
 
   const [fish2State, setFish2State] = useState({
-    x: Math.random() * 3,
-    y: 20,
+    x: Math.random() * 30,
+    y: 70,
     z: 0,
     xVelocity: Math.random() * 2,
     yVelocity: Math.random() * 2,
@@ -29,7 +29,7 @@ const Fish = ({sectionRef}) => {
   });
   const [fish3State, setFish3State] = useState({
     x: Math.random() * 3,
-    y: 10,
+    y: 70,
     z: 10,
     xVelocity: Math.random() * 2,
     yVelocity: Math.random() * 2,
@@ -38,7 +38,7 @@ const Fish = ({sectionRef}) => {
   });
   const [fish4State, setFish4State] = useState({
     x: Math.random() * 200,
-    y: 50,
+    y: 70,
     z: 10,
     xVelocity: Math.random() * 2,
     yVelocity: Math.random() * 2,

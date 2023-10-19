@@ -1,13 +1,19 @@
-.clients{
+.clients {
   color: #ece8e6;
   background-color: #12147f;
   overflow: hidden;
+  height: auto;
 }
+
 .wrapper {
   display: grid;
   align-items: center;
   justify-items: center;
   position: relative;
+}
+
+.wrapper h2 {
+  font-size: 32px;
 }
 
 [class*='clients-'], [class*='fish-'] {
@@ -16,52 +22,53 @@
   will-change: transform;
 }
 
-.clients-01{
+.clients-01 {
   z-index: 1;
 }
 
-.clients-02{
+.clients-02 {
   z-index: 2;
 }
 
-.clients-03{
+.clients-03 {
   z-index: 3;
 }
 
-.clients-04{
+.clients-04 {
   z-index: 3;
 }
 
-.clients-05{
+.clients-05 {
   z-index: 4;
 }
 
-.clients-06{
+.clients-06 {
   z-index: 3;
 }
-.clients-07{
+
+.clients-07 {
   z-index: 1;
 }
 
-.fish-01{
+.fish-01 {
   z-index: 3;
   width: 1rem;
   height: 1rem;
 }
 
-.fish-02{
+.fish-02 {
   z-index: 6;
   width: 1rem;
   height: 1rem;
 }
 
-.fish-03{
+.fish-03 {
   z-index: 3;
   width: 1rem;
   height: 1rem;
 }
 
-.fish-04{
+.fish-04 {
   z-index: 3;
   width: 1rem;
   height: 1rem;
@@ -75,84 +82,143 @@
   position: absolute;
   top: auto;
   bottom: -1px;
-  left: 0%;
-  right: 0%;
+  left: 0;
+  right: 0;
+}
+
+.block {
+  grid-area: 1 / 1;
+  height: auto;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20%;
+  padding-top: 10%;
+}
+
+.block-cards {
+  padding: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  flex-wrap: wrap;
+  z-index: 12;
+}
+
+.card {
+  z-index: 11;
+  display: block;
+  height: 70px;
+  width: 70px;
+  margin-bottom: 20px;
+  transition: transform 0.1s ease;
+  border-radius: 25px;
+  box-shadow: 0 1px 5px #7684f1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 4px solid rgba(13,21,68,.75);
+}
+
+.card:hover {
+  box-shadow: 0 0 30px rgb(21, 66, 147, .6);
 }
 
 @media screen and (min-width: 768px) {
-  .fish-01{
+  .fish-01 {
     z-index: 3;
     width: 1.5rem;
     height: 1.5rem;
   }
 
-  .fish-02{
+  .fish-02 {
     z-index: 6;
     width: 1.5rem;
     height: 1.5rem;
   }
 
-  .fish-03{
+  .fish-03 {
     z-index: 3;
     width: 2rem;
     height: 2rem;
   }
 
-  .fish-04{
+  .fish-04 {
     z-index: 3;
     width: 1.5rem;
     height: 1.5rem;
+  }
+
+  .card {
+    height: 100px;
+    width: 150px;
+    padding: 1rem 1.5rem 1.5rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .fish-01{
+  .fish-01 {
     z-index: 3;
     width: 2rem;
     height: 2rem;
   }
 
-  .fish-02{
+  .fish-02 {
     z-index: 6;
     width: 2rem;
     height: 2rem;
   }
 
-  .fish-03{
+  .fish-03 {
     z-index: 3;
     width: 2.5rem;
     height: 2.5rem;
   }
 
-  .fish-04{
+  .fish-04 {
     z-index: 3;
     width: 1.75rem;
     height: 1.75rem;
   }
+
+  .card {
+    height: 110px;
+    width: 160px;
+    padding: 1rem 1.5rem 1.5rem;
+  }
 }
 
+
 @media screen and (min-width: 1024px) {
-  .fish-01{
+  .fish-01 {
     z-index: 3;
     width: 2.5rem;
     height: 2.5rem;
   }
 
-  .fish-02{
+  .fish-02 {
     z-index: 6;
     width: 2.5rem;
     height: 2.5rem;
   }
 
-  .fish-03{
+  .fish-03 {
     z-index: 3;
     width: 3.5rem;
     height: 3.5rem;
   }
 
-  .fish-04{
+  .fish-04 {
     z-index: 3;
     width: 2.5rem;
     height: 2.5rem;
+  }
+
+  .card {
+    height: 120px;
+    width: 170px;
+    padding: 1rem 1.5rem 1.5rem;
   }
 }
