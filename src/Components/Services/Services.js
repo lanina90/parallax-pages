@@ -24,16 +24,16 @@ const Services = () => {
 
   if(isMobile){
     chainTranslate3d = `translate3d(0px, ${20-scrollY/10}%, 0px)`
-    servicesTranslate3d = `translate3d(0px,${20-scrollY/10}%, 0px)`
+    servicesTranslate3d = `translate3d(0px,${10-scrollY/10}%, 0px)`
   } else if(isTablet) {
-    chainTranslate3d = `translate3d(0px, ${70-scrollY/10}%, 0px)`
-    servicesTranslate3d = `translate3d(0px,${70-scrollY/10}%, 0px)`
+    chainTranslate3d = `translate3d(0px, -${scrollY * 0.04}px, 0px)`
+    servicesTranslate3d = `translate3d(0px,${10 - scrollY * 0.08}px, 0px)`
   } else if(isDesktop) {
-    chainTranslate3d = `translate3d(0px, ${77-scrollY/10}%, 0px)`
-    servicesTranslate3d = `translate3d(0px,${120-scrollY/11}%, 0px)`
+    chainTranslate3d = `translate3d(0px, -${scrollY * 0.2}px, 0px)`
+    servicesTranslate3d = `translate3d(0px,${100 - scrollY * 0.08}px, 0px)`
   } else  {
-    chainTranslate3d = `translate3d(0px, ${75-scrollY/14}%, 0px)`
-    servicesTranslate3d = `translate3d(0px,${220-scrollY/6}%, 0px)`
+    chainTranslate3d = `translate3d(0px, ${75-scrollY/11}%, 0px)`
+    servicesTranslate3d = `translate3d(0px,${190-scrollY/5}%, 0px)`
   }
 
 
