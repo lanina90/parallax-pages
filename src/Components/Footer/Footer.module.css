@@ -1,19 +1,18 @@
 .footer {
   width: 100%;
-  height: auto;
-  justify-content: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   padding-top: 4rem;
-  padding-bottom: 4rem;
-  display: flex;
   background-color: white;
+  color: #020016;
 }
-
 .wrapper {
   z-index: 5;
-  width: 100vw;
   height: auto;
   text-align: left;
   flex-flow: column;
@@ -29,11 +28,15 @@
   font-size: 32px;
   text-align: center;
   line-height: 100%;
-  color: #020016;
-
 }
 
 .wrapper p {
   text-align: center;
-  color: #020016;
+
+}
+
+@media screen and (min-width: 768px) {
+  .footer{
+    height: 350px;
+  }
 }
