@@ -47,8 +47,8 @@ const Clients = () => {
         <div className={styles.block}>
           <h2>Latest Clients</h2>
           <div className={styles['block-cards']}>
-            {logos.map(item =>
-              <Card img={item.img}/>
+            {logos.map((item, index) =>
+              <Card key={index} img={item.img}/>
             )}
           </div>
         </div>

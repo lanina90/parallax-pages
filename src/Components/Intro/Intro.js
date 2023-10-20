@@ -31,7 +31,7 @@ const Intro = () => {
   }
 
   return (
-    <Container component={'section'}>
+    <section>
       <div className={styles.wrapper}>
         <RocksDown width="100%" height="100%" className={styles['intro-01']} loading="eager"/>
         <RocksFull width="100%" height="100%" className={styles['intro-02']} loading="eager"/>
@@ -47,7 +47,7 @@ const Intro = () => {
           <h1>CREATIVE PRODUCTION</h1>
           <p className={styles.services}>Photography,CGI, Video & Motion</p></div>
       </div>
-    </Container>
+    </section>
   );
 };
 

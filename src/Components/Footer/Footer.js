@@ -1,33 +1,39 @@
 import React from 'react';
+import styles from './Footer.module.css'
 import {useScroll} from "../../hooks/useScroll";
+import {useMedia} from "../../hooks/useMedia";
+import Form from "./Form/Form";
 
 const Footer = () => {
+  const {isMobile, isTablet, isDesktop} = useMedia()
   const scrollY = useScroll()
+  let translate3d
+  if (isMobile) {
+    translate3d = `translate3d(0px,-${scrollY * 0.4}px, 0px)`
+  } else if (isTablet) {
+    translate3d = `translate3d(0px,-${scrollY * 0.07}px, 0px)`
+  } else if (isDesktop) {
+    translate3d = `translate3d(0px,-${scrollY * 0.07}px, 0px)`
+  } else {
+    translate3d = `translate3d(0px,-${scrollY * 0.3}px, 0px)`
+  }
   return (
-    <section className={'section-footer'}>
-      <img src="https://assets.website-files.com/607bec7082b45011f6bea82e/607bec7082b4503ba4bea849_bg-footer.png"
-           loading="eager"
-           alt="" className="bg-footer"/>
-      <div className={'container-footer'}>
-        <div className={'container align-center'}
-             style={{
-               willChange: "opacity, transform",
-               opacity: 0.1 + scrollY / 1350,
-               transform: `translate3d(0px, ${200 - scrollY/7}px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)`,
-               transformStyle: "preserve-3d",
-             }}>
-          <div className={'text-wrapper'}>
-            <h2 className={'heading-style-h2 color-style-white'}>Aenean faucibus ornare tellus</h2>
-            <p className={'text-size-xlarge color-style-white'}>
-              Faucibus ornare tellus.
-            </p>
-          </div>
+    <section className={styles.footer} style={{
+      transform: translate3d
+    }}>
+      <div className={styles.wrapper}>
+        <h2>Available for amazing projects!</h2>
+        <p>If you're looking for exceptional production services that will help you stand out from the crowd, don't
+          hesitate
+          to contact us today!</p>
 
-          <button>Contact me</button>
-        </div>
+        <Form/>
       </div>
+
+
     </section>
-  );
+  )
+    ;
 };
 
 export default Footer;
