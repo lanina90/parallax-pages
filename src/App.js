@@ -1,4 +1,5 @@
 import './App.css';
+import './styles/_normalize.css';
 import Hero from "./Components/Hero/Hero";
 import Footer from "./Components/Footer/Footer";
 import Intro from "./Components/Intro/Intro";

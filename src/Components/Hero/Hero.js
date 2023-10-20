@@ -49,8 +49,8 @@ const Hero = () => {
   };
 
   return (
-    <div className={styles.section_hero}>
-      <div className={styles['hero-wrapper']}>
+    <section>
+      <div className={styles.hero}>
         <Hero9 width="100%" height="100%" className={styles['hero-1']} />
         <Hero8 width="100%" height="100%" className={styles['hero-2']}
                style={{
@@ -134,7 +134,7 @@ const Hero = () => {
 
       </div>
 
-    </div>
+    </section>
 
 
   )
