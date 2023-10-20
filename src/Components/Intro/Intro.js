@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Intro.module.css'
-import Container from "../Container/Container";
 import {ReactComponent as RocksDown} from "../../assets/intro/intro-07.svg";
 import {ReactComponent as RocksFull} from "../../assets/intro/intro-06.svg";
 import {ReactComponent as RocksUp} from "../../assets/intro/intro-05.svg";
