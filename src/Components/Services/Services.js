@@ -36,9 +36,8 @@ const Services = () => {
     servicesTranslate3d = `translate3d(0px,${190-scrollY/5}%, 0px)`
   }
 
-
   return (
-    <Container component={'section'} className={styles.services}>
+    <section className={styles.services}>
       <div className={styles.wrapper}>
         <RocksUp width="100%" height="100%" className={styles['services-09']}/>
         <BubblesRight width="100%" height="100%" className={styles['services-08']}
@@ -110,7 +109,7 @@ const Services = () => {
         </div>
       </div>
 
-    </Container>
+    </section>
   );
 };
 
