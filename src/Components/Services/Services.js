@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Services.module.css'
-import Container from "../Container/Container";
 import {ReactComponent as RocksUp} from "../../assets/services/rocks_services.svg";
 import {ReactComponent as BubblesRight} from "../../assets/services/bubbles_right.svg";
 import {ReactComponent as BubblesMiddle} from "../../assets/services/bubbles_middle.svg";
